@@ -1,0 +1,911 @@
+.lf-printTwo {
+  width: 1200px;
+  margin: 0 auto;
+  /*公共头*/
+  /*封面*/
+  /*小球*/
+  /*蜘蛛网图*/
+  /*蜘蛛网状图文案*/
+  /*核心素养*/
+  /*知识*/
+  /*较难教易提升*/
+}
+.lf-printTwo .pageTitle {
+  width: 100%;
+  /*height:350px;*/
+  padding: 0 40px;
+  box-sizing: border-box;
+  color: #333;
+  margin-bottom: 30px;
+}
+.lf-printTwo .pageTitle .right {
+  width: 100%;
+  padding-top: 30px;
+  color: #666;
+  line-height: 28px;
+  text-align: right;
+}
+.lf-printTwo .pageTitle h4 {
+  font-size: 40px;
+  line-height: 96px;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  background: url("../img/bi.png") 0 0 no-repeat;
+  margin-top: 0 !important;
+}
+.lf-printTwo .pageTitle p {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.lf-printTwo .report-item {
+  padding-top: 20px;
+  /*padding: {*/
+  /*top: 20px;*/
+  /*}*/
+  margin-bottom: 20px;
+}
+.lf-printTwo .report-item .report-item-title {
+  padding: 0 40px;
+  text-align: left;
+  height: 80px;
+  line-height: 80px;
+  background: url("../../src/assets/image/paperReport-img3.png") no-repeat 18px 50%;
+  background-color: #FFF;
+  border-bottom: 1px solid #e1e5ec;
+}
+.lf-printTwo .report-item .report-item-title .main {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+}
+.lf-printTwo .report-item .report-item-title .fenge {
+  width: 2px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: -5px;
+  background: #333;
+  margin: 0 10px;
+}
+.lf-printTwo .report-item .report-item-title .tag {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+}
+.lf-printTwo .report-item .charbot {
+  margin-left: 10%;
+  width: 80%;
+  /*border:solid 1px;*/
+  padding-top: 2%;
+}
+.lf-printTwo .report-item .charbot ul {
+  width: 70%;
+  /*border: solid #0BB20C 1px;*/
+  display: table;
+  margin: 0 auto;
+}
+.lf-printTwo .report-item .charbot ul li {
+  width: 10%;
+  list-style: none;
+  padding-left: 2%;
+  /*border: solid 1px;*/
+  text-align: center;
+  float: left;
+}
+.lf-printTwo .report-item .charbot ul li span {
+  display: inline-block;
+  margin-left: 5%;
+}
+.lf-printTwo .report-item .report-item-body {
+  background: #fff;
+  /*padding: {*/
+  /*left: 40px;*/
+  /*right: 40px;*/
+  /*}*/
+  /*padding-top: 15px;*/
+  padding-bottom: 80px;
+}
+.lf-printTwo .report-item .report-item-body .title {
+  text-align: left;
+  padding-bottom: 60px;
+}
+.lf-printTwo .report-item .report-item-body .title h2 {
+  color: #55739b;
+  font-size: 24px;
+  font-weight: 100;
+}
+.lf-printTwo .report-item .report-item-body .title p {
+  line-height: 36px;
+  color: #999999;
+  font-size: 20px;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap {
+  position: relative;
+  width: 140px;
+  height: 1px;
+  margin: 16px 0;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .line {
+  width: 100%;
+  border-bottom: 1px dashed #999;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .dian {
+  position: absolute;
+  top: -1.5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  overflow: hidden;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .dian:first-child {
+  left: 0;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .dian:last-child {
+  right: 0;
+}
+.lf-printTwo .covers-content {
+  /*height:856px;*/
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+  /*background:url("../../../../static/img/paperReport-img1.png") no-repeat 100% 100%;*/
+  background-color: #FFF;
+  margin-top: 20px;
+}
+.lf-printTwo .covers-content .logo-img {
+  text-align: left;
+  margin-top: 80px;
+}
+.lf-printTwo .covers-content .logo-img img {
+  margin-left: 40px;
+}
+.lf-printTwo .covers-content .title {
+  font-size: 80px;
+  font-weight: 100;
+  margin-top: 50px;
+  color: #231815;
+}
+.lf-printTwo .covers-content .sub-title {
+  font-size: 40px;
+  margin-top: 30px;
+  color: #221815;
+  font-weight: 100;
+}
+.lf-printTwo .covers-content .blue-line {
+  width: 260px;
+  height: 10px;
+  margin: 0 auto;
+  background-color: #2e6fab;
+  margin-top: 60px;
+  margin-bottom: 46px;
+}
+.lf-printTwo .covers-content .p-subject {
+  color: #2e6fab;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+.lf-printTwo .covers-content .bottom-detail {
+  margin-bottom: 30px;
+}
+.lf-printTwo .covers-content .bottom-detail .p-bottom {
+  color: #231815;
+  font-size: 28px;
+  text-align: left;
+  width: 400px;
+  margin: 10px auto;
+  white-space: nowrap;
+}
+.lf-printTwo .report-title {
+  background-color: #FFF;
+  position: relative;
+  overflow: hidden;
+  /*padding-top:70px;*/
+}
+.lf-printTwo .report-title .report-title-top {
+  padding-left: 40px;
+  font-size: 30px;
+  color: #333;
+  background: url("../../src/assets/image/paperReport-img3.png") no-repeat 18px 50%;
+}
+.lf-printTwo .report-title .time-answer-wrap {
+  text-align: left;
+  font-size: 16px;
+  color: #666666;
+  line-height: 30px;
+  position: absolute;
+  left: 35px;
+  top: 45px;
+}
+.lf-printTwo .report-title .look-paper {
+  position: absolute;
+  right: 40px;
+  top: 45px;
+}
+.lf-printTwo .report-title .canvas-img {
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+}
+.lf-printTwo .report-title .canvas-div {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+  border: 2px solid #70c6e6;
+  /*margin-top:200px;*/
+}
+.lf-printTwo .report-title .canvas-div .canvas {
+  /*margin:0 auto;*/
+}
+.lf-printTwo .report-title .canvas-div p {
+  font-size: 30px;
+  color: #2e75b6;
+  margin-top: 70px;
+}
+.lf-printTwo .report-title .name {
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+}
+.lf-printTwo #subjectAbility {
+  padding-top: 40px;
+  border: 2px solid #70c6e6;
+}
+.lf-printTwo .p-zzText {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+.lf-printTwo .zz-writeText .zz-wrap {
+  margin: 0 40px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 !important;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li {
+  /*float: left;*/
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .left-wrap {
+  float: left;
+  margin-right: 26px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .left-wrap .num-text {
+  height: 80px;
+  width: 80px;
+  background-color: #f7f7f7;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 80px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap {
+  /*float: left;*/
+  width: 440px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+  margin-top: 0 !important;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap h3 span {
+  font-weight: 100;
+  color: #de6b6b;
+  font-size: 18px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap .key-list {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap .key-list span {
+  font-size: 16px;
+  margin-right: 6px;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap .key-list span i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #e74141;
+  margin-right: 6px;
+  font-style: inherit;
+  text-align: center;
+  line-height: 18px;
+  color: #FFF;
+}
+.lf-printTwo .zz-writeText .zz-wrap ul li .right-wrap p {
+  font-size: 16px;
+  color: #999;
+}
+.lf-printTwo .zz-writeText .zz-wrap .clear {
+  clear: both;
+}
+.lf-printTwo .sy-content .report-knowledge-main {
+  max-width: 1200px !important;
+  position: relative;
+  height: 480px;
+}
+.lf-printTwo .sy-content .report-knowledge-main .sy-inset-wrap {
+  height: 480px;
+  width: 576px;
+  border: 2px solid #70c6e6;
+  margin-left: 36px;
+}
+.lf-printTwo .sy-content .report-knowledge-main .sy-inset-wrap #subjectAbilitytwo {
+  position: absolute;
+  top: 40px;
+  left: -130px;
+  zoom: 0.8;
+}
+.lf-printTwo .sy-content .report-knowledge-main .sy-inset-wrap p {
+  text-align: center;
+  font-size: 24px;
+  /* margin-top: 426px; */
+}
+.lf-printTwo .sy-content .report-knowledge-main .imp-table {
+  position: absolute;
+  top: 0;
+  left: 692px;
+  color: #333;
+}
+.lf-printTwo .sy-content .report-knowledge-main .imp-table .p1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.lf-printTwo .sy-content .report-knowledge-main .imp-table .sy-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 !important;
+}
+.lf-printTwo .sy-content .report-knowledge-main .imp-table .sy-text .left1 {
+  margin-top: 14px;
+  border-bottom: 2px solid #70c6e6;
+  padding-bottom: 10px;
+}
+.lf-printTwo .sy-content .report-knowledge-main .imp-table .sy-text .right1 {
+  margin-top: 14px;
+  border-bottom: 2px solid #70c6e6;
+  padding-bottom: 10px;
+}
+.lf-printTwo .sy-content .report-knowledge-main .p-zhushi {
+  margin-left: 40px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.lf-printTwo .sy-content .report-knowledge-main .clear {
+  clear: both;
+}
+.lf-printTwo .p-textLF {
+  font-size: 24px;
+  color: #333;
+  margin-top: 12px;
+  padding-left: 40px;
+}
+.lf-printTwo .ge-por {
+  position: relative;
+}
+.lf-printTwo .report-item {
+  /*padding: {*/
+  /*top: 20px;*/
+  /*}*/
+  margin-bottom: 20px;
+}
+.lf-printTwo .report-item .report-item-title {
+  padding: 0 40px;
+  text-align: left;
+  height: 80px;
+  line-height: 80px;
+  background: url("../../src/assets/image/paperReport-img3.png") no-repeat 18px 50%;
+  background-color: #FFF;
+}
+.lf-printTwo .report-item .report-item-title .main {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+}
+.lf-printTwo .report-item .report-item-title .fenge {
+  width: 2px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: -5px;
+  background: #333;
+  margin: 0 10px;
+}
+.lf-printTwo .report-item .report-item-title .tag {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+}
+.lf-printTwo .report-item .charbot {
+  margin-left: 10%;
+  width: 80%;
+  /*border:solid 1px;*/
+  padding-top: 2%;
+}
+.lf-printTwo .report-item .charbot ul {
+  width: 70%;
+  /*border: solid #0BB20C 1px;*/
+  display: table;
+  margin: 0 auto;
+}
+.lf-printTwo .report-item .charbot ul li {
+  width: 10%;
+  list-style: none;
+  padding-left: 2%;
+  /*border: solid 1px;*/
+  text-align: center;
+  float: left;
+}
+.lf-printTwo .report-item .charbot ul li span {
+  display: inline-block;
+  margin-left: 5%;
+}
+.lf-printTwo .report-item .report-item-body {
+  background: #fff;
+  /*padding: {*/
+  /*left: 40px;*/
+  /*right: 40px;*/
+  /*}*/
+  /*padding-top: 15px;*/
+  padding-bottom: 80px;
+}
+.lf-printTwo .report-item .report-item-body .title {
+  text-align: left;
+  padding-bottom: 60px;
+}
+.lf-printTwo .report-item .report-item-body .title h2 {
+  color: #55739b;
+  font-size: 24px;
+  font-weight: 100;
+}
+.lf-printTwo .report-item .report-item-body .title p {
+  line-height: 36px;
+  color: #999999;
+  font-size: 20px;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap {
+  position: relative;
+  width: 140px;
+  height: 1px;
+  margin: 16px 0;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .line {
+  width: 100%;
+  border-bottom: 1px dashed #999;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .dian {
+  position: absolute;
+  top: -1.5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  overflow: hidden;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .dian:first-child {
+  left: 0;
+}
+.lf-printTwo .report-item .report-item-body .title .line-wrap .dian:last-child {
+  right: 0;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main {
+  max-width: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .header {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .header .ling {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .header .hundred {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .header .percent-num-item {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .header .percent-num-item.first {
+  width: 10%;
+  text-align: left;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .header .percent-num-item.last {
+  width: 10%;
+  text-align: right;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main {
+  padding: 40px 0;
+  position: relative;
+  border-bottom: 1px solid #7fcfc6;
+  border-top: 3px solid #7fcfc6;
+  border-left: 3px solid #7fcfc6;
+  border-right: 1px solid #7fcfc6;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .right-num {
+  position: absolute;
+  right: -56px;
+  top: 32px;
+  font-size: 16px;
+  color: #333;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .left-wrap-dy {
+  position: absolute;
+  right: -285px;
+  width: 200px;
+  text-align: left;
+  font-size: 16px;
+  color: #808080;
+  display: none;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .left-wrap-dy .left-item {
+  line-height: 40px;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .left-wrap-dy .left-item .yuan {
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .left-wrap {
+  position: absolute;
+  left: 123%;
+  width: 200px;
+  text-align: left;
+  font-size: 16px;
+  color: #808080;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .left-wrap .left-item {
+  line-height: 40px;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .left-wrap .left-item .yuan {
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .line {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: 1px;
+  background: #3ccdfe;
+  opacity: 0.2;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .dian {
+  position: absolute;
+  left: -7.5px;
+  top: -7.5px;
+  overflow: hidden;
+  border-radius: 7.5px;
+  background: #7fcfc6;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .main-item {
+  position: relative;
+  text-align: left;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .main-item-title {
+  line-height: 30px;
+  color: #666;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .main-item-body {
+  height: 24px;
+  width: 100%;
+  border-radius: 12px;
+  background: #eaeaea;
+}
+.lf-printTwo .report-knowledge .report-knowledge-main .main .main-item-body .num-total {
+  display: inline-block;
+  height: 100%;
+  border-radius: 12px;
+  background: #7fcfc6;
+  width: 100px;
+}
+.lf-printTwo .zz-writeTextNo {
+  display: none;
+}
+.lf-printTwo .knowledgeGrasp-content {
+  margin: 0 40px;
+}
+.lf-printTwo .knowledgeGrasp-content h3 {
+  font-size: 24px;
+  color: #333;
+}
+.lf-printTwo .knowledgeGrasp-content p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.lf-printTwo .knowledgeGrasp-content .left1 {
+  float: left;
+  width: 500px;
+}
+.lf-printTwo .knowledgeGrasp-content .left1 span {
+  color: #de6b6b;
+}
+.lf-printTwo .knowledgeGrasp-content .right1 {
+  float: right;
+  width: 500px;
+}
+.lf-printTwo .knowledgeGrasp-content .right1 span {
+  color: #de6b6b;
+}
+.lf-printTwo .knowledgeGrasp-content .line {
+  height: 3px;
+  width: 60px;
+  background-color: #21a0ff;
+  margin: 10px 0;
+}
+.lf-printTwo .knowledgeGrasp-content .clear {
+  clear: both;
+}
+.lf-printTwo .knowledgeGraspNo {
+  display: none;
+}
+.lf-printTwo .inCrease-content .left-wrap {
+  text-align: left;
+  font-size: 16px;
+  color: #808080;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 26px;
+}
+.lf-printTwo .inCrease-content .left-wrap .left-item {
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+  margin-right: 30px;
+}
+.lf-printTwo .inCrease-content .left-wrap .left-item:last-child {
+  margin-right: 0;
+}
+.lf-printTwo .inCrease-content .left-wrap .left-item .yuan {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.lf-printTwo .inCrease-content .lf-text {
+  position: absolute;
+  top: 0;
+  right: -70px;
+}
+.lf-printTwo .moduleScoreNo {
+  display: none;
+}
+@media print {
+  body {
+    background-color: #FFF !important;
+  }
+  .lf-printTwo {
+    background-color: #FFF;
+  }
+  .lf-printTwo .report-item-body {
+    padding-bottom: 0 !important;
+  }
+  .lf-printTwo .canvas-div #canvas {
+    display: none;
+  }
+  .lf-printTwo .canvas-div .canvas-img {
+    display: block !important;
+  }
+  .lf-printTwo .zz-writeTextNo {
+    display: block !important;
+  }
+  .lf-printTwo .zz-writeTextYes {
+    display: none;
+  }
+  .lf-printTwo .knowledgeGraspNo {
+    display: block !important;
+  }
+  .lf-printTwo .knowledgeGraspYes {
+    display: none;
+  }
+  .lf-printTwo .moduleScoreNo {
+    display: block !important;
+  }
+  .lf-printTwo .moduleScoreYes {
+    display: none;
+  }
+}
+.lf-printOne {
+  width: 1200px;
+  margin: 0 auto;
+}
+.lf-printOne .print-wrap {
+  /*练习题*/
+  /*命题点*/
+  /*答案&解析*/
+}
+.lf-printOne .print-wrap .threeQues-content {
+  min-height: 200px;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap {
+  /*padding:0 40px 40px 40px;*/
+  /*background-color:#FFF;*/
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .title-text {
+  font-size: 16px;
+  color: #333;
+  margin: 30px 0 20px 0;
+  height: 17px;
+  border-left: 3px solid #c80032;
+  line-height: 17px;
+  padding-left: 20px;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list {
+  margin-bottom: 20px;
+  padding-bottom: 22px;
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  background-color: #FFF;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list h1 {
+  font-size: 14px;
+  color: #666;
+  font-weight: 100;
+  height: 35px;
+  border: 1px solid #d9d9d9;
+  background-color: #f1f1f1;
+  line-height: 36px;
+  padding: 0 22px;
+  margin-bottom: 22px;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list p {
+  vertical-align: 1px;
+  padding: 0 22px;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list span {
+  display: inline-block;
+  line-height: 1;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list span img {
+  vertical-align: 100px;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list .opt-list {
+  display: inline-block;
+  min-width: 25%;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list .quesList {
+  margin-top: 12px;
+  padding: 0 22px;
+}
+.lf-printOne .print-wrap .threeQues-content .threeQues-wrap .ques-list .quesList .smallQuesList {
+  margin-top: 12px;
+}
+.lf-printOne .print-wrap .threeLive-content {
+  min-height: 200px;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap {
+  /*padding:0 40px 0 40px;*/
+  /*background-color:#FFF;*/
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .title-text {
+  font-size: 16px;
+  color: #333;
+  margin: 30px 0 20px 0;
+  height: 17px;
+  border-left: 3px solid #c80032;
+  line-height: 17px;
+  padding-left: 20px;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list {
+  margin-bottom: 20px;
+  padding-bottom: 22px;
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  background-color: #FFF;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list h1 {
+  font-size: 14px;
+  color: #666;
+  font-weight: 100;
+  height: 35px;
+  border: 1px solid #d9d9d9;
+  background-color: #f1f1f1;
+  line-height: 36px;
+  padding: 0 22px;
+  margin-bottom: 22px;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list .elCol {
+  padding: 0 22px;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list .elCol p {
+  color: #666;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list .elCol .base-p {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0 12px 0;
+  font-weight: bold;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list .elCol .base-p b {
+  margin-right: 8px;
+}
+.lf-printOne .print-wrap .threeLive-content .threeLive-wrap .ques-list .elCol .base-p span {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 4px;
+  background-color: #f9e6e6;
+}
+.lf-printOne .print-wrap .threeQuesAns-content {
+  min-height: 200px;
+}
+.lf-printOne .print-wrap .threeQuesAns-content .threeQuesAns-wrap {
+  /*padding:0 40px 10px 40px;*/
+  /*background-color:#FFF;*/
+}
+.lf-printOne .print-wrap .threeQuesAns-content .threeQuesAns-wrap .title-text {
+  font-size: 16px;
+  color: #333;
+  margin: 30px 0 20px 0;
+  height: 17px;
+  border-left: 3px solid #c80032;
+  line-height: 17px;
+  padding-left: 20px;
+}
+.lf-printOne .print-wrap .threeQuesAns-content .threeQuesAns-wrap .quesAns-list {
+  margin-bottom: 20px;
+  padding-bottom: 22px;
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  background-color: #FFF;
+}
+.lf-printOne .print-wrap .threeQuesAns-content .threeQuesAns-wrap .quesAns-list h1 {
+  font-size: 14px;
+  color: #666;
+  font-weight: 100;
+  height: 35px;
+  border: 1px solid #d9d9d9;
+  background-color: #f1f1f1;
+  line-height: 36px;
+  padding: 0 22px;
+  margin-bottom: 22px;
+}
+.lf-printOne .print-wrap .threeQuesAns-content .threeQuesAns-wrap .quesAns-list .quesAns-l {
+  padding: 0 22px;
+}
+@media print {
+  .lf-printOne {
+    width: 100%;
+    background-color: #FFF;
+    overflow: hidden;
+  }
+  .lf-printOne .threeQues-content .threeQues-wrap .title-text {
+    margin-top: 0;
+  }
+}
+/*打印样式*/
+.PageNext {
+  PAGE-BREAK-AFTER: always;
+}
