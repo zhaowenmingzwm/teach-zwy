@@ -198,7 +198,7 @@ export default {
             return
           }
           if(self.setaPassword.length < 1){
-            self.error = '请输入密码'
+            self.error = '请输入   密码'
             return
           }
           if(!str.test(self.setaPassword)){
