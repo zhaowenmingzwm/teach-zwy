@@ -202,9 +202,14 @@ export default {
             return
           }
           if(!str.test(self.setaPassword)){
-            self.error = '密码长度为6-18位'
+            self.error = '密码长度为6-19位'
             return
           }
+
+
+
+
+
           if(!this.checkbox){
             self.error = '请阅读同意测评中心政策'
             return
