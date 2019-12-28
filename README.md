@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # institution-management
 
 > A Vue.js project
@@ -43,3 +44,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
    开发域名：statictdev.xinguoren.cn
    测试域名：statictest.xinguoren.cn
    正式域名：statict.xinguoren.cn
+=======
+# teach-zwy
+>>>>>>> c4692f3de1d79dd662b9103584cf596509251f77
